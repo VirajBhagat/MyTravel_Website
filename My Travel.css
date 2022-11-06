@@ -1,0 +1,489 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main-header{
+    width: 97%;
+    padding: 15px;
+    padding-right: 0px;
+    margin-left: 15px;
+}
+
+.main-header > div{
+    display: inline-block;
+}
+
+.main-header div{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.LOGO{
+    vertical-align: middle;
+}
+
+.main-nav{
+    text-align: right;
+    display: inline-block;
+    width: calc(100% - 150px);
+}
+
+.main-nav-items{
+    list-style: none;
+    margin: 0;
+}
+
+.main-nav-item{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.main-nav-item a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #ffffff;
+    padding: 0px 8px;
+    font-weight: bold;
+}
+
+.main-nav-item .main-nav-item-SignIn{
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 8px 22px;
+}
+
+.main-nav-item a:hover,
+.main-nav-item a:focus{
+    color: #d32222;
+}
+
+.main-nav-item .main-nav-item-SignIn:hover{
+    background: #00fb59;
+    color: white;
+}
+
+.main-img{
+    background: url("image/Mountain Beach.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+.main-heading{
+    text-align: center;
+}
+
+.Main-heading-desc{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #00fb59;
+}
+
+span{
+    font-family: 'Lobster', cursive;
+    color: #9123ff;
+}
+
+.Destination-heading{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #e64337;
+}
+
+.Left-img{
+    display: flex;
+    flex-direction: right;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: -30px;
+}
+
+.Right-img{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.Down-img{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.Left-Images{
+    height: 680px;
+    width: 400px;
+    border-radius: 25px;
+    margin: 20px;
+    color: white;
+    box-shadow: 0px 0px 13px 2px black;
+}
+
+.Left-img-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Right-images{
+    width: 845px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0px 0px 13px 2px black;
+}
+
+.Down-Images{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0px 0px 13px 2px black;
+}
+
+.Top-bottom-left {
+    position: absolute;
+    /* bottom: 20px; */
+    /* left: 310px; */
+    /* color: transparent; */
+    border: solid transparent;
+    color: transparent;
+    border-top-width: 303px;
+    border-bottom-width: 303px;
+    border-right-width: 75px;
+    border-left-width: 75px;
+    border-radius: 25px;
+}
+
+.top-right{
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    border: solid transparent;
+    color: transparent;
+    border-top-width: 130px;
+    border-bottom-width: 130px;
+    border-right-width: 355px;
+    border-left-width: 355px;
+    border-radius: 25px;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 20px;
+    left: 26px;
+    border: solid transparent;
+    color: transparent;
+    border-top-width: 118px;
+    border-bottom-width: 118px;
+    border-right-width: 56px;
+    border-left-width: 56px;
+    border-radius: 25px;
+}
+
+.bottom-right{
+    position: absolute;
+    right: 22px;
+    bottom: 20px;
+    border: solid transparent;
+    color: transparent;
+    border-top-width: 117px;
+    border-bottom-width: 117px;
+    border-right-width: 87px;
+    border-left-width: 87px;
+    border-radius: 25px;
+}
+
+.Top-bottom-left:hover,
+.bottom-right:hover,
+.bottom-left:hover,
+.top-right:hover{
+    transition: 0.6s ease;
+    color: white;
+    cursor: pointer;
+}
+.Special-offer{
+    width: 100%;
+    height: 650px;
+    background: #30343d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Special-offer-heading{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    background: #f16f23;
+    color: #fdfbfb;
+    box-shadow: 0px 0px 20px 2px rgb(0, 0, 0);
+}
+
+.Special-offer-items{
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.Special-offer-item{
+    height: 500px;
+    width: 300px;
+    background: linear-gradient(314deg,#3aec25,#00ffff);
+    border-radius: 20px;
+    margin: 30px;
+    opacity: 1;
+}
+
+.Special-offer-item:hover,
+.Special-offer-item:active{
+    box-shadow: 1px 2px 10px 5px #a0a0a0;
+}
+
+.Special-offer-item-Recommended-heading,
+.Special-offer-item-PREMIUM-heading,
+.Special-offer-item-Super-heading{
+    font-size: 25px;
+    text-align: center;
+    padding: 6px 8px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background: white;
+    color: #09c809;
+    box-shadow: 2px 2px 4px 2px #000000a8;
+}
+
+
+
+.Special-offer-item-package-location{
+    background: white;
+    color: #323ff8;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Special-offer-item h2{
+    width: 100%;
+    background: #f82f2f;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Special-offer-item-para{
+    width: 100%;
+    margin: 3px 0px;
+    padding: 5px 0px;
+    background-color: white;
+    color: #3b3d50;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: fantasy;
+    border-radius: 10px;
+}
+
+.Special-offer-item-btn{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    color: white;
+    background: #078507;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Special-offer-item-btn:hover,
+.Special-offer-item-btn:active{
+    color: #078507;
+    background: white;
+    border: 2px solid #078507;
+    box-shadow:  0px 2px 4px 2px #000000a8;
+}
+
+.Travel-rating-video-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("image/back image.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 80px 20px;
+}
+
+.Travel-rating-video{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    /* background: #ffffff; */
+    width: max-content;
+    border: 50px solid #e66060ab;
+}
+
+table, th, td {
+    border: 2px solid black;
+    /* border-collapse: collapse; */
+    padding: 10px;
+    width:450px;
+    font-weight: bold;
+    color: #202e83;
+    background: #faefff;
+    font-size: 17px;
+}
+
+th{
+    font-size: 20px;
+    background: #48d46b;
+    color: white;
+    font-family: sans-serif;
+}
+
+.checked {
+    color: orange;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.main-footer{
+    height: 125px;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-logo-viraj{
+    font-size: 57px;
+    font-family: 'Tourney';
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-logo-hardware{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-left-section{
+    padding: 20px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-address{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 40px;
+    color: #cebbec;
+}
+
+.SocialMedia-symbols{
+    padding-top: 10px;
+}
+
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fa:hover{
+    box-shadow: 0px 0px 5px 1px #d8d7d7;
+}
+
+.fa-facebook-square{
+    background: #0aa5ff;
+    color: white;
+}
+
+.fa-twitter{
+    background: #31e3e9;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #f710d8;
+    background-image: linear-gradient(45deg, #ffb91a, transparent);
+    color: white;
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background: #1d212b;
+    color: rgb(160, 146, 146);
+    text-align: center;
+}
+
+.checked {
+    color: orange;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0px;
+    width: 15px;
+}
